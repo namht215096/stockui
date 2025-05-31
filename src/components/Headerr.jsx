@@ -6,7 +6,7 @@ const tabs = [
   { label: "Cân đối kế toán", path: "/candoikt" },
   { label: "Kêt quả kinh doanh",path: "/kqkd" },
   { label: "Luân chuyển tiền tệ ",path:"/luanchuyentien" },
-  // { label: "Tài chính" },
+  { label: "Khối lượng giao dịch",path: "/Khoiluonggd" },
   // { label: "Hồ sơ doanh nghiệp" },
   // { label: "Tin tức & Sự kiện"},
   // { label: "DN cùng ngành"},
@@ -15,7 +15,7 @@ const tabs = [
   // { label: "Trái phiếu"},
 ];
 
-export default function Header() {
+export default function Headerr() {
   const navigate = useNavigate();
   const location = useLocation();
 

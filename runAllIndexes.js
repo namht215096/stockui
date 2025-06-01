@@ -6,7 +6,8 @@ const folders = [
   'kqkinhdoanh', 
   'luanchuyentien',
   'Kldd',
-  'volumeadd'
+  'volumeadd',
+  'close'
 ];
 
 folders.forEach(folder => {

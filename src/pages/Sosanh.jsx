@@ -3,13 +3,12 @@ import Table from '../components/Table.jsx';
 import { useState } from "react";
 import Comparison from '../components/Comparision.jsx';
 
-const Luanchuyentien = () => {
+const Sosanh = () => {
   return (
     <div>
-        <Table folder="luanchuyentien" />
-        <Comparison />
+        <Comparison folder="kqkinhdoanh" />
     </div>
   )
 }
 
-export default Luanchuyentien
+export default Sosanh

@@ -6,6 +6,9 @@ import Headerr from './components/Headerr';
 import Kqkd from './pages/Kqkd';
 import Luanchuyentien from './pages/Luanchuyentien';
 import Khoiluonggd from './pages/Khoiluonggd';
+import Sosanh from './pages/Sosanh';
+import Giadongcua from './pages/Giadongcua';
+import Baocaotaichinh from './pages/Baocaotaichinh';
 
 export default function App() {
   return (
@@ -17,6 +20,10 @@ export default function App() {
         <Route path="/kqkd" element={<Kqkd />} />
         <Route path="/Khoiluonggd" element={<Khoiluonggd/>} />
         <Route path="/luanchuyentien" element={<Luanchuyentien />} />
+        <Route path="/sosanh" element={<Sosanh />} />
+        <Route path="/close" element={< Giadongcua/>} />
+        <Route path="/bctc" element={< Baocaotaichinh/>} />
+        
         {/* Các route khác nếu có */}
       </Routes>
     </BrowserRouter>
